@@ -1,3 +1,15 @@
 .imagen{
     width: 100%;
 }
+.imagen-xr{
+    display: none;
+}
+@media (max-width: 414px) {
+    .imagen{
+        display: none;
+    }
+    .imagen-xr{
+        display: inline;
+        width: 100%;
+    }
+}
