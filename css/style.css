@@ -4,7 +4,7 @@
 .imagen-xr{
     display: none;
 }
-@media (max-width: 414px) {
+@media (max-width: 614px) {
     .imagen{
         display: none;
     }
